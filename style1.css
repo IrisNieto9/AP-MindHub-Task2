@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: hidden;
+    
+}
+.titulo{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline;
+    position: relative;
+    top: 70px;
+    left: 220px;
+    -webkit-text-stroke:rgb(242, 244, 245) 1px;
+}
+
+nav{
+    width: 200px; 
+    height: 0px; 
+    position: relative;
+    top: 0px;
+}
+
+nav a{
+    margin: 30px 10px;
+    display: block;
+    font-size: 20px;
+    padding: 30px 0;
+    position: relative;
+    left: 220px;
+    top: 290px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.banner img{
+    width: 1300px;
+    height: 200px;
+    margin-left: 120px;
+    object-fit: cover;
+    
+}
+
+.activo{
+    color: rgb(8, 103, 135);
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.inactivo{
+    color: rgb(8, 103, 135);
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+
+
+.subtitulo{
+    display: block;
+    border: 1px black;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    width:84.3%;
+    margin-left: 120px;
+
+}
+
+aside{
+    display: inline-block;
+    display: flexbox;
+    justify-content: flex-start;
+    position: relative;
+    left: 65%;
+    bottom: 120px;
+}
+
+aside img{
+    display: inline-block;
+    margin-left: 200px;
+    justify-content: flex-start;
+}
+
+
+
+div img{
+    display: inline-block;
+    margin-left: 200px;
+    justify-content: flex-start;
+    width: 1300px;
+    /* height: 200px; */
+    object-fit: cover;
+}
+
+
+main{
+    margin-left: 100px;
+    margin-right: 250px;
+    position: relative;
+    bottom: 130px;
+    left: 400px;
+    width: 800px;
+}
+
+h3{
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+p{
+    text-indent: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    position:relative;
+    
+}
+
+/* section{
+    font-size: large;
+    font-family: sans-serif;
+    position:relative;
+    left: 500px;
+    top: 75px;
+} */
+/* #imagen{
+    position: relative;
+    top: 100px;
+    right: 200px;
+} */

@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: inline;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+.titulo{
+    font-style: italic;
+    font-size: 60px;
+    color: rgb(8, 103, 135);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline;
+}
+
+nav{
+    display: inline;
+    margin-left: 90px;
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.banner{
+    width: 1300px;
+    height: 200px;
+    margin-left: 120px;
+    object-fit: cover;
+    
+}
+
+.activo{
+    background-color:  rgb(8, 103, 135);
+    color: rgb(247, 249, 249);
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.inactivo{
+    background-color:  rgb(8, 103, 135);
+    color: rgb(247, 249, 249);
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+
+
+.subtitulo{
+    display: block;
+    border: 1px black;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    width:84.3%;
+    margin-left: 120px;
+
+}
+
+aside{
+    display: inline-block;
+    display: flexbox;
+    justify-content: flex-start;
+}
+
+aside img{
+    display: inline-block;
+    margin-left: 200px;
+    justify-content: flex-start;
+}
+
+
+
+div img{
+    width: 1300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+main{
+    margin-left: 150px;
+    margin-right: 250px;
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+    width: 800px;
+}
+
+h3{
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+p{
+    text-indent: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    position:relative;
+    
+}
+
+/* section{
+    font-size: large;
+    font-family: sans-serif;
+    position:relative;
+    left: 500px;
+    top: 75px;
+} */
+/* #imagen{
+    position: relative;
+    top: 100px;
+    right: 200px;
+} */
