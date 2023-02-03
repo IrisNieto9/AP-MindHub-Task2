@@ -77,7 +77,6 @@ nav{
 
 aside{
     display: inline-block;
-    display: flexbox;
     justify-content: flex-start;
     position: relative;
     left: 65%;
@@ -118,4 +117,15 @@ p{
     font-family: sans-serif;
     position:relative;
     
+}
+
+article{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 250px;
+}
+
+th{
+    display: flex;
+    align-content: stretch; 
 }
